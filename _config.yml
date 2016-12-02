@@ -79,3 +79,4 @@ theme: spfk
 deploy:
   type: git
   repo: https://github.com/TrustTheBoy/TrustTheBoy.github.io.git
+  #branch: BBS
