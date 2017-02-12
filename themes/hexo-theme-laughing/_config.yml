@@ -10,7 +10,7 @@ author:
   head: /default_images/author_head.gif
   signature: 心空似海，意如流云，寂静的夜，才显真实.
 # content
-content_width: 600
+content_width: 900
 # Footer
 ## Social icon list: [facebook, twitter, weibo, wechat, github, stackoverflow, linkin, email, segmentfault, flickr]
 social:
@@ -19,14 +19,26 @@ social:
     link: https://github.com/TrustTheBoy
   - name: Weibo
     icon: weibo
-    link: http://weibo.com/heqibang
+    link: http://weibo.com/5972812599/profile?topnav=1&wvr=6&is_all=1
   - name: SegmentFault
     icon: segmentfault
-    link: http://www.segmentfault.com/u/bon
+    link: https://segmentfault.com/u/trusttheboy
+  - name: Linkin
+    icon: linkin
+    link: https://segmentfault.com/u/trusttheboy
 # Duoshuo
 duoshuo:
   enable: true
   siteName: ueibo
+# Duoshuo
+avatar: https://avatars0.githubusercontent.com/u/20201085?v=3&s=460
+duoshuo_shortname: TrustTheBoy
+baidu_analytics: fe3f5969cfe3bf9255462b6403670fb4
+
+leancloud_visitors:
+  enable: true
+  app_id: EfAM7OHAu0nMjpTCDvEj4d2A-gzGzoHsz
+  app_key: PeTc2yodBEPO7swWLwQ6fA2X
 # Copyright
 copyright:
   record: false
