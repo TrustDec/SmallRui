@@ -28,7 +28,7 @@ configureNext:安排一个动画在下一个布局中发生,参数如下：
 
 create:创建configureNext所需要的config参数
 
-#####RN提供的属性：
+RN提供的属性：
 Types:动画类型,主要有:
 > - spring:弹跳
 > - linear:线性
@@ -51,7 +51,7 @@ linear:默认配置项，在LayoutAnimation.Presets中
 
 spring:默认配置项，在LayoutAnimation.Presets中
 
-<span style='color:#188eee;font-weight:bold'>注：安卓平台使用 LayoutAnimation 动画必须加入下面这句，iOS设备默认打开。具体代码如下:</span>
+<span style='color:188eee;font-weight:bold'>注：安卓平台使用 LayoutAnimation 动画必须加入下面这句，iOS设备默认打开。具体代码如下:</span>
 ```javascript
 if (Platform.OS === 'android') {
   UIManager.setLayoutAnimationEnabledExperimental(true)
@@ -95,4 +95,4 @@ var CustomLayoutAnimation = {
 >AM 7：00 ~ AM 8：30 
 >PM 9：30 ~ PM 11：00
 
-<span style='color:#B2B2B2'>枕头里藏满了发霉的梦，梦里住满了得不到的人</span>
+<span style='color:B2B2B2'>枕头里藏满了发霉的梦，梦里住满了得不到的人</span>

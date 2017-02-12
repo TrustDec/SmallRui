@@ -1,7 +1,6 @@
 ---
-title:DrawerLayoutAndroid
+title: DrawerLayoutAndroid
 ---
-
 >仅限Android平台的抽屉式组件.
 >子视图会成为主视图.
 >可在指定的窗口侧面拖拽出来.
