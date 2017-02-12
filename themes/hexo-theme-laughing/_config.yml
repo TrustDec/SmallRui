@@ -1,0 +1,34 @@
+# Icon
+favicon: /favicon.ico
+# SEO
+keywords: Trust, TrustTheBoy, 贾国瑞, 小瑞, SmallRui
+# Header
+page_background: /default_images/page_background.jpg
+post_background: /default_images/post_background.jpg
+title_plancehold: 随笔
+author:
+  head: /default_images/author_head.gif
+  signature: 心空似海，意如流云，寂静的夜，才显真实.
+# content
+content_width: 600
+# Footer
+## Social icon list: [facebook, twitter, weibo, wechat, github, stackoverflow, linkin, email, segmentfault, flickr]
+social:
+  - name: GitHub
+    icon: github
+    link: https://github.com/TrustTheBoy
+  - name: Weibo
+    icon: weibo
+    link: http://weibo.com/heqibang
+  - name: SegmentFault
+    icon: segmentfault
+    link: http://www.segmentfault.com/u/bon
+# Duoshuo
+duoshuo:
+  enable: true
+  siteName: ueibo
+# Copyright
+copyright:
+  record: false
+  hexo: true
+  laughing: true
