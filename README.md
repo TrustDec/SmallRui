@@ -6,7 +6,7 @@
 
 简单轻量的[hexo](https://hexo.io)主题。
 
-Demo: [TrustTheBoy]https://trusttheboy.github.io/)
+Demo: [TrustTheBoy](https://trusttheboy.github.io/)
 
 ## 外观
 
