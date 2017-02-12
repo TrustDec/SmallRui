@@ -24,4 +24,14 @@ block content
           li
             i.icon.icon-category
             | !{list_categories(post.categories)}
+  script.
+    <!-- trusttheboy.github.io/ Baidu tongji analytics -->
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      console.log(1);
+      hm.src = "https://hm.baidu.com/hm.js?fe3f5969cfe3bf9255462b6403670fb4";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
   include ./_partial/pagination.pug
