@@ -42,5 +42,5 @@ leancloud_visitors:
 # Copyright
 copyright:
   record: false
-  hexo: true
-  laughing: true
+  hexo: false
+  laughing: false
