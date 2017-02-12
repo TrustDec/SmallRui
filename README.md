@@ -2,6 +2,7 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/BoizZ/hexo-theme-laughing)
 [![Hexo](https://img.shields.io/badge/hexo-3.2.0+-blue.svg)](https://github.com/hexojs/hexo)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BoizZ/hexo-theme-laughing/master/LICENSE)
+[![Built with Grunt@1.0](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
 
 简单轻量的[hexo](https://hexo.io)主题。
 
