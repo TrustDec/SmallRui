@@ -1,7 +1,12 @@
-####DrawerLayoutAndroid
+---
+title:DrawerLayoutAndroid
+---
+
 >仅限Android平台的抽屉式组件.
 >子视图会成为主视图.
 >可在指定的窗口侧面拖拽出来.
+
+<!-- More -->
 
 <font style='color:green;'>本章节代码已上传Github</font>
 >URL:https://github.com/TrustTheBoy/React-Native-BBS
@@ -9,10 +14,10 @@
 >效果图在文章最后.
 >时间太紧,页面没怎样美化.
 
-####效果图：
+效果图：
 <img src="http://reactnative.cn/static/docs/0.35/img/components/drawerlayoutandroid.png" style="width:20%;height:35%;"/>
 
-#####官网提供的属性：
+官网提供的属性：
 <span style='color:#188eee;font-size:15;font-weight:bold'>drawerBackgroundColor</span>
 >指定抽屉的背景颜色。
 >默认值为白色。
@@ -93,7 +98,7 @@ let navigationView = (
 ```
 <font style='color:red;'>navigationView视图中如果设置了backgroundColor,会覆盖drawerBackgroundColor，不少人在这里遇坑，以为drawerBackgroundColor不起作用</font>
 
-####DrawerLayoutAndroid 属性 code
+DrawerLayoutAndroid 属性 code
 
 ```
 <DrawerLayoutAndroid
@@ -112,7 +117,7 @@ let navigationView = (
 >
 
 ```
-#####此组件还提供openDrawer 与 closeDrawer
+此组件还提供openDrawer 与 closeDrawer
 
 >openDrawer:打开抽屉
 >closeDrawer：关闭抽屉
@@ -120,7 +125,7 @@ let navigationView = (
 <font style='color:green'>无论抽屉处于那种状态，
 都仍然可以调用openDrawer/closeDrawer这两个方法打开和关闭</font>
 
-######实例：部分代码
+实例：部分代码
 
 ```
 openDrawer(){		
@@ -148,11 +153,11 @@ closeDrawer(){
 </TouchableHighlight>
 ```
 
-#####最后的效果:
+最后的效果:
 
 
 
-#####欢迎你的加入！
+欢迎你的加入！
 
 <font style='color:green;font-weight:bold'>公众号：Domeday</font>
 

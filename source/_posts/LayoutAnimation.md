@@ -1,6 +1,10 @@
-####LayoutAnimation
+---
+title: LayoutAnimation
+---
 ><span class='fontSmall' style='color:green'>修改于2016年10月29日
 >RN版本:0.36</span>  
+
+<!-- More -->
 
 Demo将上传至Github
 ><span class='fontSmall'>布局发生变化时,自动将视图运动到它们的新位置.
@@ -11,8 +15,8 @@ Demo将上传至Github
 
 打开LayoutAnimation的文档,可以看到提供的属性并不多，用起来也并不难。
 
-#####RN提供的方法：
-######configureNext:安排一个动画在下一个布局中发生,参数如下：
+RN提供的方法：
+configureNext:安排一个动画在下一个布局中发生,参数如下：
 ><span style='color:green;font-weight:bold'>config：</span>指定动画属性参数有:
 > - duration:动画持续的时间
 > - create:创建一个新视图所使用的动画
@@ -22,7 +26,7 @@ Demo将上传至Github
 ><span style='color:green;font-weight:bold'>onAnimationDidEnd：</span>当动画完成的时候调用的方法 <span style='color:red'>(iOS)</span>
 ><span style='color:green;font-weight:bold'>onError:</span>当动画发生错误的时候调用的方法 <span style='color:red'>(iOS)</span>
 
-######create:创建configureNext所需要的config参数
+create:创建configureNext所需要的config参数
 
 #####RN提供的属性：
 Types:动画类型,主要有:

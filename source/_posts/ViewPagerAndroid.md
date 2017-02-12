@@ -1,6 +1,10 @@
-####ViewPagerAndroid
+---
+title: ViewPagerAndroid
+---
 
 此章节的Demo大概是我最用心的一篇,以React Native内部版本：0.37源代码为准,如果你认真看完,会发现没有想象中那么复杂,反而简单的让你不知所云~
+
+<!-- More -->
 
 >允许在子视图之间左右翻页的容器.
 >子容器为单独的页且会被拉伸填满.
@@ -12,7 +16,7 @@
 ><span style='color:red'>效果图在文章最后.</span>
 >时间太紧,页面没怎样美化但是该涉及道德属性一个都不拉.
 
-#####官网提供的属性：
+官网提供的属性：
 
 <span style='color:#188eee;font-size:15;font-weight:bold'>initialPage</span>
 >加载到页面显示第几个View,下标始为0.
@@ -82,7 +86,7 @@
 ####关键代码(全部代码已上传到Github)
 
 
-#####欢迎你的加入！
+欢迎你的加入！
 
 <font style='color:green;font-weight:bold'>公众号：Domeday</font>
 

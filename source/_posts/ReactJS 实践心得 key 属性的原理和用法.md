@@ -2,12 +2,12 @@
 title: ReactJS 实践心得 key 属性的原理和用法
 ---
 
-####ReactJS && ReactNative ：
+ReactJS && ReactNative ：
 >本章主要讲解key属性的原理和用法
 
 <!-- More -->
 
-#####首先你需要知道：
+首先你需要知道：
 
 <span style="color:#188eee;font-weight:bold">React与ReactJS && React Native</span>
 
@@ -60,10 +60,10 @@ const UserList = props => (
 	  </div>
 )
 ```
-#####为什么呢？
+为什么呢？
 
 我们知道当组件的属性发生了变化，其 render 方法会被重新调用，组件会被重新渲染.
-#####比如: 
+比如: 
 
 UserList组件的users属性改变了，就得重新渲染UserList组件，
 包括外部的`<div>`（容器），内部的一个`<h3>`和若干个`<div>`（每一个描述一个用户）。
@@ -71,7 +71,7 @@ UserList组件的users属性改变了，就得重新渲染UserList组件，
 对后一种 `<div>`（表示用户的），由于其处在一个长度不确定的数组中，
 React 需要判断，对数组中的每一项，到底是新建一个元素加入到页面中，还是更新原来的元素。
 
-#####比如以下几种情况：
+比如以下几种情况：
 
 	[{name: '张三', age: 20}] => [{name: '张三', age: 21}]
 >这种情况明显只需要更新元素，没有必要重新创建元素。
@@ -128,7 +128,7 @@ var element = React.createElement(
 ```
 不管 props 如何变化，数组外的每个元素始终出现在 React.createElement() 参数列表中的固定位置，这个位置就是天然的 key。
 
-#####题外话:
+题外话:
 
 初学 React 时还容易产生另一个困惑;
 
@@ -144,11 +144,11 @@ var element = React.createElement(
 
 那是因为，React 需要一个 null 去占住那个元素本来的位置。
 
-#####吐个槽：
+吐个槽：
 
 曾经，我天真的以为 key 这个元素只应在数组中使用,直到我在一个复杂的项目中写出了及其恶心的 **componentWillReceiveProps**方法。我尝试寻找销毁和重建组件，触发*componentDidMount** 方法,重置 state，然后才突然发现 key 这个属性已经在那里了。
 
-#####举个例子:
+举个例子:
 
 我们有一个展示用户信息的**UserDashboard**组件。
 传给组件的**props**只有用户的 基本信息（ID，姓名等）,而有关用户的详细信息（比如当前是否在线等）是需要请求过来的。
@@ -187,7 +187,7 @@ var element = React.createElement(
 
 所以，我想说的结论是：为了组件内部逻辑的清晰，你几乎应该在任何复杂的有状态组件（尤其是有具体对应对象的）上使用key属性（只要 key 属性的改变不是很频繁），这样做，才能在合适的时候触发组件的销毁与重建，组件才能有一个健康的**生命周期**。
 
-#####又是一个题外话
+又是一个题外话
 
 配合 react-router 时，通常要为 route 组件赋 key，但通常情况下我们是没法传 props 给 route 组件的。
 
@@ -220,7 +220,7 @@ class App extends Component {
   }
 }
 ```
-#####欢迎你的加入！
+欢迎你的加入！
 <font style='color:green;font-weight:bold'>公众号：Domeday</font>
 推送时间为：
 >AM 7：00 ~ AM 8：30 
