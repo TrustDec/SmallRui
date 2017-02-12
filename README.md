@@ -6,7 +6,7 @@
 
 简单轻量的[hexo](https://hexo.io)主题。
 
-Demo: [lalala.lol](http://lalala.lol)
+Demo: [TrustTheBoy]https://trusttheboy.github.io/)
 
 ## 外观
 
@@ -110,7 +110,7 @@ content_width: 600
 social:
   - name: GitHub
     icon: github
-    link: http://github.com/BoizZ
+    link: https://github.com/TrustTheBoy
 ```
 
 ### 多说
